@@ -1,0 +1,86 @@
+// General styling
+body {
+	background-color: rgb(186, 245, 186);
+	font-family: 'Arial', sans-serif;
+}
+
+// Container styling
+.container-fluid {
+	padding: 20px;
+}
+
+// Header styling
+h1 {
+	color: #2c3e50;
+	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+	font-size: 3.5rem;
+	font-weight: bold;
+}
+
+// Summary statistics styling
+.summary-div {
+	background-color: #ffffff;
+	border-radius: 8px;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+	padding: 20px;
+	transition: transform 0.2s ease-in-out;
+}
+
+// Card styling
+.card {
+	background-color: #ffffff;
+	border-radius: 8px;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+	transition: transform 0.2s ease-in-out;
+	margin-bottom: 20px;
+
+	.card-title {
+		color: #2c3e50;
+		font-size: 1.5rem;
+		font-weight: bold;
+		margin-bottom: 15px;
+	}
+
+	.card-body {
+		padding: 20px;
+	}
+}
+
+// Top text styling
+.top-text {
+	font-size: 30px;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+// Dropdown and radio items styling
+.dropdown,
+.radioitems {
+	background-color: #ecf0f1;
+	border-radius: 5px;
+	padding: 10px;
+}
+
+// Graph styling
+.graph {
+	padding: 20px;
+	background-color: #ecf0f1;
+	border-radius: 8px;
+}
+
+// Slider styling
+.slider {
+	margin: 20px 0;
+}
+
+// Row and Column spacing
+.row {
+	margin-bottom: 20px;
+}
+
+.col {
+	padding: 0 10px;
+}
+
+.mb-3 {
+	margin-bottom: 20px;
+}
