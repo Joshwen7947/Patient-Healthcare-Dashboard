@@ -4,6 +4,7 @@ import dash_bootstrap_components as dbc
 from dash import dcc, html, Input, Output
 import plotly.express as px
 import pandas as pd
+import numpy as np
 
 def load_data():
     # Load and preprocess the data
