@@ -6,7 +6,7 @@ import plotly.express as px
 import pandas as pd
 import numpy as np
 
-def load_data():
+def load_data() -> dict:
     # Load and preprocess the data
     df = pd.read_csv('assets/healthcare.csv')
     df['Billing Amount'] = pd.to_numeric(df['Billing Amount'], errors='coerce')
